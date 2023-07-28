@@ -15,7 +15,8 @@ int main(void)
 		a = b;
 		if (c > 4000000)
 			break;
-		sum = sum + c;
+		if (c % 2 == 0)
+			sum = sum + c;
 		b = c;
 	}
 	printf("%ld\n", sum);
