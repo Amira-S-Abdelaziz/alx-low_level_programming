@@ -8,19 +8,19 @@ int main(void)
 {
 	unsigned long long int a = 1, b = 2, c,  count = 0;
 
-	printf("%ld, ", a);
+	printf("%lld, ", a);
 	count++;
-	printf("%ld, ", b);
+	printf("%lld, ", b);
 	count++;
 	while (count < 98 - 1)
 	{
 		c = a + b;
 		a = b;
-		printf("%ld, ", c);
+		printf("%lld, ", c);
 		b = c;
 		count++;
 	}
-	printf("%ld", c);
+	printf("%lld", c);
 	printf("\n");
 	return (0);
 }
