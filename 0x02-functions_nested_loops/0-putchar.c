@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include "main.h"
 /**
  * main - function
  * Return: zero
@@ -10,11 +13,11 @@ int main(void)
 
 	while (1)
 	{
-		putchar(s[i]);
+		_putchar(s[i]);
 		if (s[i] == 'r')
 			break;
 		i++;
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
