@@ -8,7 +8,7 @@ int main(void)
 {
 	long int a = 1, b = 2, c,  sum = 0;
 
-	sum = sum + a + b;
+	sum = sum + b;
 	while (1)
 	{
 		c = a + b;
