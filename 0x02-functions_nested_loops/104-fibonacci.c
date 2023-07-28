@@ -6,21 +6,21 @@
  */
 int main(void)
 {
-	unsigned long long int a = 1, b = 2, c,  count = 0;
+	unsigned long int a = 1, b = 2, c,  count = 0;
 
-	printf("%lld, ", a);
+	printf("%ld, ", a);
 	count++;
-	printf("%lld, ", b);
+	printf("%ld, ", b);
 	count++;
 	while (count < 98 - 1)
 	{
 		c = a + b;
 		a = b;
-		printf("%lld, ", c);
+		printf("%ld, ", c);
 		b = c;
 		count++;
 	}
-	printf("%lld", c);
+	printf("%ld", c);
 	printf("\n");
 	return (0);
 }
