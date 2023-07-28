@@ -8,16 +8,16 @@ int main(void)
 {
 	long int a = 1, b = 2, c,  count = 2;
 
-	printf("%d, ", a);
-	printf("%d, ", b);
+	printf("%ld, ", a);
+	printf("%ld, ", b);
 	while (count < 50)
 	{
 		c = a + b;
 		a = b;
 		if (count == 49)
-			printf("%d", c);
+			printf("%ld", c);
 		else
-			printf("%d, ", c);
+			printf("%ld, ", c);
 		b = c;
 		count++;
 	}
