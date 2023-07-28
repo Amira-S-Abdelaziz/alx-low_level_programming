@@ -17,7 +17,6 @@ int main(void)
 			break;
 		sum = sum + c;
 		b = c;
-		count++;
 	}
 	printf("%ld\n", sum);
 	return (0);
