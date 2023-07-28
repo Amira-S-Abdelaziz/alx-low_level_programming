@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int a = 1, b = 2, c,  count = 2;
+	long int a = 1, b = 2, c,  count = 2;
 
 	printf("%d, ", a);
 	printf("%d, ", b);
@@ -21,5 +21,6 @@ int main(void)
 		b = c;
 		count++;
 	}
+	printf("\n");
 	return (0);
 }
