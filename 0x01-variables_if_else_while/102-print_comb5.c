@@ -5,15 +5,15 @@
  */
 int main(void)
 {
-	int a,b,c,d;
-	
+	int a, b, c, d;
+
 	for (a = (int)'0'; a <= (int)'9'; a++)
 	{
-		for(b = a; b <= (int)'9'; b++)
+		for (b = a; b <= (int)'9'; b++)
 		{
-			for(c = b; c <= (int)'9'; c++)
+			for (c = b; c <= (int)'9'; c++)
 			{
-				for(d = c + 1; d <= (int)'9'; d++)
+				for (d = c + 1; d <= (int)'9'; d++)
 				{
 					putchar(a);
 					putchar(b);
