@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	long int a = 1, b = 2, c,  count = 2;
+	unsigned long int a = 1, b = 2, c,  count = 2;
 
 	printf("%ld, ", a);
 	printf("%ld, ", b);
