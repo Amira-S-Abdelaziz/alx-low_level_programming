@@ -6,6 +6,8 @@
  */
 int main(void)
 {
-	printf("%ld\n", 50829599);
+	long int n = 50829599;
+
+	printf("%ld\n", n);
 	return (0);
 }
