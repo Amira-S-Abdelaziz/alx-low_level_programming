@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * print_most_number - function
+ * print_most_numbers - function
  * Return: smthng
  */
 void print_most_numbers(void)
