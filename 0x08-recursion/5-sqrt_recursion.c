@@ -7,14 +7,14 @@
  * @i: var
  * Return: smthng
  */
-int func(long double  n, long double i)
+int func(int  n, int i)
 {
 	if (i == 0 && n == 1)
 		return (1);
 	if (i == 1 || i == 0)
 		return (-1);
-	if ((n / i) == i)
-		return ((int)i);
+	if (n % i == 0 && (n / i) == i)
+		return (i);
 	return (func(n, i - 1));
 }
 /**
@@ -32,5 +32,5 @@ int _sqrt_recursion(int n)
 	{
 		return (-1);
 	}
-		return (func((long double)n, (n) / 2));
+		return (func(n, (n) / 2));
 }
